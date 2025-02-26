@@ -1,5 +1,11 @@
+# Ignore all files inside the UI/processed directory
+UI/processed/*
+
+# But keep the directory itself (un-ignore it)
+!UI/processed/
 .venv
 __pycache__
 Temp
 Assests
 .env
+

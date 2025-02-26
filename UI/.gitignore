@@ -1,0 +1,3 @@
+.csv
+UI/processed/*
+!UI/processed/results.csv
