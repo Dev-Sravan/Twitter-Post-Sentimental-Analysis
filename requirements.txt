@@ -1,0 +1,6 @@
+vaderSentiment
+tweepy
+pandas
+nltk
+python-dotenv
+flask

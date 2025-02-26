@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #f39c12;
+    margin-bottom: 25px;
+}
+
+.upload-section {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    /* background: #fff; */
+    border-radius: 5px;
+    border: 2px solid #f39c12;
+    width: 80%;
+}
+
+.run-btn {
+    background: #f39c12;
+    padding: 12px 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.run-btn:hover {
+    background: #e67e22;
+}
+
+.preview-section {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.tweet-preview {
+    padding: 12px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.chart-container {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.masked-handle {
+    color: #f39c12;
+    font-weight: bold;
+    margin-right: 5px;
+}
